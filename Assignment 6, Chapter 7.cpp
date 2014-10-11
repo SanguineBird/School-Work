@@ -16,24 +16,24 @@ int main(void){
   char string1[] = "This is a string!";
   char string2[] = "And here is another.";
   int i = 0;
-  int *compare;
+  int compare;
   
   printf("Compare array1: %s\n to array2: %s", array1, array2);
   compare = mystery(array1, array2);
-  If(*compare == 0){
+  if(compare == 0){
     printf("The strings are identical.");
   }
-  Else If(*compare == 1){
+  else if(compare == 1){
     printf("The strings are not identical.");
   }
   
 
   printf("Compare array1: %s\n to string1: %s", array1, string1);
   compare = mystery(array1, string1);
-  If(*compare == 0){
+  if(compare == 0){
     printf("The strings are identical.");
   }
-  Else If(*compare == 1){
+  else if(compare == 1){
     printf("The strings are not identical.");
   }
   
