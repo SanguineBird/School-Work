@@ -21,20 +21,20 @@ int main(void){
   printf("Compare array1: %s\n to array2: %s", array1, array2);
   compare = mystery(array1, array2);
   if(compare == 0){
-    printf("The strings are identical.");
+    printf("\nThe strings are identical.\n\n");
   }
   else if(compare == 1){
-    printf("The strings are not identical.");
+    printf("\nThe strings are not identical.\n\n");
   }
   
 
   printf("Compare array1: %s\n to string1: %s", array1, string1);
   compare = mystery(array1, string1);
   if(compare == 0){
-    printf("The strings are identical.");
+    printf("\nThe strings are identical.\n\n");
   }
   else if(compare == 1){
-    printf("The strings are not identical.");
+    printf("\nThe strings are not identical.\n\n");
   }
   
   system("pause"); return 0;
